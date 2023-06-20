@@ -26,10 +26,10 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='lg:w-1/2 relative mt-20'>
-                        <div className="rounded-full h-96 w-96 flex bg-blue-400 lg:mt-20 lg:ml-6"></div>
+                        <div className="rounded-full lg:h-[480px] h-80 lg:w-[480px] w-80 flex bg-blue-400 lg:mt-20 lg:ml-6"></div>
 
-                        <img className='absolute lg:w-96 w-80 -top-7 lg:right-10 rounded-b-full' src={banner} alt="" />
-                        <div className='w-[240px] absolute bottom-0 lg:right-0 right-0 lg:mr-5 mr-32 bg-white rounded-xl h-[95px] p-3'>
+                        <img className='absolute lg:w-[400px] lg:h-[500px] w-72 lg:top-1 -top-11 lg:right-28 right-14' src={banner} alt="" />
+                        <div className='w-[240px] absolute bottom-0 lg:right-0 right-0 lg:mr-28 mr-16 bg-white rounded-xl h-[95px] p-3'>
                             <div className='flex items-center gap-5'>
                                 <img src={madel} alt="" />
                                 <div className='font-semibold'>

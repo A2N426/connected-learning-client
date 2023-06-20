@@ -6,7 +6,7 @@ const CoursesCard = ({ course }) => {
     const { name, image, price, rating } = course;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-80 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <img src={image} alt="Shoes" className="rounded-xl" />
                 </figure>
