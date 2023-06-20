@@ -23,22 +23,22 @@ const Teachers = () => {
                         <div className="relative">
                             <img src={image2} alt="" />
                             <div className="bg-blue-500 text-white text-center font-semibold absolute rounded-b-3xl lg:bottom-8 bottom-10 lg:py-5 py-6 lg:left-[42px] left-[47px] lg:w-[206px] w-[233px]">
-                                <h1 className="text-xl">Puspa Kanon</h1>
-                                <p>CEO, derhab</p>
+                                <h1 className="text-xl">Lolona Khan</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                         <div className="relative">
                             <img src={image3} alt="" />
                             <div className="bg-blue-500 text-white text-center font-semibold absolute rounded-b-3xl lg:bottom-8 bottom-10 lg:py-5 py-6 lg:left-[42px] left-[49px] lg:w-[204px] w-[230px]">
-                                <h1 className="text-xl">Puspa Kanon</h1>
-                                <p>CEO, derhab</p>
+                                <h1 className="text-xl">Jahangiri Khan</h1>
+                                <p>UX Designer</p>
                             </div>
                         </div>
                         <div className="relative">
                             <img src={image4} alt="" />
                             <div className="bg-blue-500 text-white text-center font-semibold absolute rounded-b-3xl lg:bottom-8 bottom-10 lg:py-5 py-6 lg:left-[42px] left-[47px] lg:w-[205px] w-[233px]">
-                                <h1 className="text-xl">Puspa Kanon</h1>
-                                <p>CEO, derhab</p>
+                                <h1 className="text-xl">Mukayemi Sha</h1>
+                                <p>Developer</p>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ import logo from '../../../assets/image 32.png'
 const Navbar = () => {
 
     const navLink = <>
-        <li><a>Home</a></li>
+        <li><a className='font-semibold hover:text-blue-500 divide-x'>Home</a></li>
         <li><a>About</a></li>
         <li><a>Course</a></li>
         <li><a>Contact</a></li>
@@ -21,7 +21,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <img className='lg:w-24 w-20' src={logo} alt="" />
+                <img className='lg:w-32 w-20' src={logo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end flex items-center lg:gap-3 gap-2">
                 <button className='border border-blue-600 rounded-2xl px-4 py-1 font-semibold text-blue-600 hover:bg-blue-600 hover:text-white '>Login</button>
-                <button className='border border-blue-600 rounded-2xl px-4 py-1 font-semibold text-white bg-blue-600 '>Sign Up</button>
+                <button className='border border-blue-600 rounded-2xl px-2 lg:px-4 py-1 font-semibold text-white bg-blue-600 '>Sign Up</button>
             </div>
         </div>
     );
