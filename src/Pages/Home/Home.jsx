@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "../Shared/Navbar/Navbar";
 import Footer from "../Shared/Footer/Footer";
 import Banner from "../../components/Banner";
+import Explore from "../../components/Explore";
+import Courses from "../../components/Courses";
 
 const Home = () => {
     return (
@@ -10,7 +11,10 @@ const Home = () => {
                 <Navbar />
                 <Banner />
             </div>
-            <Outlet />
+            <Explore />
+            <Courses />
+
+
             {/* <Footer /> */}
         </div>
     );
