@@ -4,6 +4,8 @@ import Banner from "../../components/Banner";
 import Explore from "../../components/Explore";
 import Courses from "../../components/Courses";
 import Categories from "../../components/Categories";
+import Teachers from "../../components/Teachers";
+import Review from "../../components/Review";
 
 const Home = () => {
     return (
@@ -15,8 +17,10 @@ const Home = () => {
             <Explore />
             <Courses />
             <Categories />
+            <Teachers />
+            <Review />
 
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
