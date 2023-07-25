@@ -20,9 +20,9 @@ const Banner = () => {
             <div className='pb-16'>
                 <div className='lg:flex items-center justify-between gap-10'>
                     <div className='relative'>
-                        <h1 className='text-6xl text-[#161E49] font-semibold'>For Every Student</h1>
-                        <h1 className='text-6xl text-[#161E49] font-semibold lg:mt-3'>Every Classroom.</h1>
-                        <h1 className='text-6xl font-semibold lg:mt-3 text-blue-500'>Real Results.</h1>
+                        <h1 className='text-6xl text-[#161E49] font-bold'>For Every Student</h1>
+                        <h1 className='text-6xl text-[#161E49] font-bold lg:mt-3'>Every Classroom.</h1>
+                        <h1 className='text-6xl font-bold lg:mt-3 text-blue-500'>Real Results.</h1>
                         <p className='font-serif mt-5'>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete. But I must explain to you how all this mistaken idea of denouncing pleasure and praising.</p>
                         <div className='flex items-center gap-5 mt-5'>
                             <button className='rounded-3xl px-5 py-1 bg-blue-500 text-white font-semibold'>Get Started</button>
@@ -59,7 +59,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex items-center justify-center gap-3 bg-white rounded-xllg:px-2 px-4 py-2 mt-16'>
+                <div className='flex items-center justify-center gap-3 bg-white rounded-xl lg:px-2 px-4 py-2 mt-16'>
                     <img className='lg:w-64 w-16' src={company1} alt="" />
                     <img className='lg:w-56 w-16' src={company2} alt="" />
                     <img className='lg:w-64 w-16' src={company3} alt="" />

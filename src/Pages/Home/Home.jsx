@@ -19,7 +19,6 @@ const Home = () => {
             <Categories />
             <Teachers />
             <Review />
-
             <Footer />
         </div>
     );
